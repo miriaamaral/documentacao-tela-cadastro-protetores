@@ -1,6 +1,6 @@
 # 🐾 ONG Lunaar: Módulo de Cadastro de Protetores 🐾
 
-E aí, meu 🐙! Bem-vindo(a) a mais um repositório da minha jornada como Desenvolvedora Front-End! 
+E aí, meu 🐙! Esse repositório, como documentação, ilustra bem o resultado de como vem sendo meus etsudos com Angular, Stitch e Figma como Desenvolvedora Front-End! 
 
 Este projeto foi desenvolvido com o objetivo de **mapear colônias de gatos de rua e estruturar o fluxo de cadastro de protetores da ONG Lunaar (Gestão Web - CodeMundi)**, sem o uso de APIs pagas como o Google Maps. Aqui, apliquei e consolidei conceitos importantes de arquitetura front-end e UX/UI para criar uma aplicação **responsiva, inteligente, escalável e com altíssima integridade de dados**.
 
@@ -15,21 +15,19 @@ Que tal dar uma olhada no design e no protótipo que deram origem ao código?
 
 ### Telas do Projeto:
 <div align="center">
-    <img width="48%" alt="Identificação e Endereço" src="img/cadastro-protetores-identificacao-endereco.png" />
-    <img width="48%" alt="Dados da Colônia Antiga" src="img/cadastro-protetores-dados-colonia-antiga.png" />
+    <img width="25%" alt="Tela de cadastro de protetores da ONG" src="img/cadastro-protetores-identificacao-endereco.PNG" />
+    <img width="37%" alt="Dados da Colônia Antiga" src="img/cadastro-protetores-dados-colonia-antiga.PNG" />
     <br>
-    <img width="48%" alt="Novo Componente de Geolocalização" src="img/cadastro-protetores-geolocalizacao.png" />
-    <img width="48%" alt="Acesso e Fotos da Colônia" src="img/cadastro-protetores-acesso-fotos-colonia.png" />
+    <img width="37%" alt="Novo Componente de Geolocalização" src="img/cadastro-protetores-geolocalizacao.jpeg" />
+    <img width="28%" alt="Acesso e Fotos da Colônia" src="img/cadastro-protetores-acesso-fotos-colonia.PNG" />
 </div>
-
-*(Nota: Certifique-se de que as imagens acima estejam salvas com a extensão exata na pasta `img/` do seu repositório).*
 
 ---
 
 ## 💡 Funcionalidades Destaque
 
 * **Geolocalização Nativa (Custo Zero):** Captura de coordenadas exatas da colônia usando a HTML5 Geolocation API do navegador, garantindo precisão sem depender de APIs pagas.
-* **Lógica de "Carrinho" (1 para N):** Permite que um único protetor adicione, valide e gerencie múltiplas colônias em uma lista antes do envio final.
+* **Lógica de "Carrinho" (1 protetor cuidando de inumeras colônias):** Permite que um único protetor adicione, valide e gerencie múltiplas colônias em uma lista antes do envio final.
 * **Preenchimento Automático Inteligente:** Integração com a API do ViaCEP para preencher automaticamente Rua, Bairro e Cidade, poupando tempo da equipe.
 * **Validações Estritas:** Uso avançado de Reactive Forms para travar envios incompletos e validar dados críticos (CPF, E-mail) em tempo real.
 * **Design Responsivo & Acessível:** Otimizado para o uso em campo, do desktop ao mobile, utilizando componentes PrimeNG.
@@ -47,8 +45,7 @@ Que tal dar uma olhada no design e no protótipo que deram origem ao código?
 
 ---
 
-## 🏗 Arquitetura e Clean Code (A Base)
-
+## 🏗 Arquitetura e Clean Code
 Para garantir que o sistema fosse escalável e fácil de manter, o primeiro passo foi traduzir o protótipo para o código, implementando o Design System da CodeMundi:
 
 * **Componentização Inteligente:** Substituição de inputs nativos do HTML por componentes avançados do **PrimeNG**, garantindo uma interface profissional e responsiva.
@@ -118,5 +115,7 @@ O maior ganho deste projeto foi o exercício prático de empatia com o usuário 
 
 ✉️ Contato
 Vamos nos conectar e construir algo incrível juntos!
+
 Email: miriaamaralcs@gmail.com
+
 LinkedIn: [https://www.linkedin.com/in/miriaamaralcs]
